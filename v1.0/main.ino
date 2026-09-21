@@ -23,7 +23,7 @@
 // ---------------- User settings ----------------
 const char* WIFI_SSID = "REPLACE_WITH_YOUR_SSID";
 const char* WIFI_PASS = "REPLACE_WITH_YOUR_PASSWORD";
-const char* HOSTNAME  = "relay01";
+const char* HOSTNAME  = "relay01"; // open http://relay01.local
 
 const uint8_t RELAY_PIN        = 0;      // GPIO0
 const bool    RELAY_ACTIVE_LOW = true;   // LOW turns the relay ON
